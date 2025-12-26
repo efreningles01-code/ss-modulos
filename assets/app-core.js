@@ -1,6 +1,6 @@
 (function () {
   const APP = (window.SSAPP = window.SSAPP || {});
-  APP.base = "https://TU_USUARIO.github.io/ss-modulos";
+  APP.base = "https://efreningles01-code.github.io/ss-modulos";
   APP.v = "1";
 
   APP.loadCss = (url) => {
