@@ -1,6 +1,8 @@
 window.SSMODULE = {
   init({ mount }) {
-    const btn = mount.querySelector('#btnTest');
-    btn.onclick = () => alert('Funciona correctamente');
+    mount.innerHTML = `
+      <h2>Cotizaciones</h2>
+      <p>Módulo cargado correctamente.</p>
+    `;
   }
 };
